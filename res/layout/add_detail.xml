@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100" >
+        
+    <EditText android:id="@+id/EtBrandDetail"
+        android:hint="Add Brand to Table"
+        android:textSize="18sp"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="70"
+       
+        />
+    
+    <EditText android:id="@+id/EtCategory"
+        android:hint="Type"
+        android:textSize="18sp"
+        android:layout_weight="30"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+       
+        />
+    </LinearLayout>
+    
+    
+    
+    <EditText android:id="@+id/EtCompanyDetail"
+        android:hint="Add Company to Table"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+     
+        />
+    <EditText android:id="@+id/EtBrandMRP"
+        android:hint="Add MRP to Table"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        
+        />
+    <EditText android:id="@+id/EtDescription"
+        android:hint="Description"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+       
+        />
+    </LinearLayout>
+   <LinearLayout 
+ 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:id="@+id/LLComposition"
+       
+       >
+    
+    
+    
+    <EditText 
+        android:id="@+id/EtBrandComposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Brand Composition"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_marginTop="10dp"
+        />
+    
+    
+       
+   </LinearLayout>
+   <LinearLayout 
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="90">
+    <Button android:id="@+id/BtnAddComposition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3c3c3c"
+        android:text="Add Compo"
+        android:layout_weight="30"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        
+        />
+    <Button android:id="@+id/BtnRemoveComposition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3c3c3c"
+        android:text="Remove Compo"
+        android:layout_weight="30"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        />
+    <Button android:id="@+id/BtnSaveData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3c3c3c"
+        android:text="Save Data"
+        android:layout_weight="30"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        />
+       
+   </LinearLayout> 
+    
+
+</LinearLayout>

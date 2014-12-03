@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/main_background">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvAdmin"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Administrator"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic|normal" />
+    
+    <TextView
+        android:id="@+id/tvcomposee"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Composee"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic|normal" />
+    
+    
+    <TextView
+        android:id="@+id/tvBrandName"
+        android:typeface="serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Brand Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic|normal" />
+
+    <TextView
+        android:id="@+id/tvComposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:typeface="serif"
+        android:clickable="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="Composition"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic|normal" />
+
+</LinearLayout>
+</ScrollView>
